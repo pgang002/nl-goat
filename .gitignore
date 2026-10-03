@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+NVD_API_KEY.env
+.venv/
+venv/
+
+# Data
+data/raw/
+data/processed/
+
+# Models
+models/
+*.joblib
+*.faiss
+*.safetensors
+pytorch_model.bin
+
+# Logs
+logs/
+wandb/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

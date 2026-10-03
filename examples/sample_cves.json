@@ -1,0 +1,29 @@
+[
+  {
+    "cve_id": "CVE-EXAMPLE-0001",
+    "description": "ExampleCMS 3.2.1 and earlier allows SQL injection via the username parameter in the login module.",
+    "cwe_ids": ["CWE-89"],
+    "affected_cpe": [
+      "cpe:2.3:a:example:examplecms:3.2.1:*:*:*:*:*:*:*"
+    ],
+    "cvss_severity": "HIGH"
+  },
+  {
+    "cve_id": "CVE-EXAMPLE-0002",
+    "description": "DemoRouter firmware 1.0 allows OS command injection via a crafted hostname field in the network diagnostics component.",
+    "cwe_ids": ["CWE-78"],
+    "affected_cpe": [
+      "cpe:2.3:o:demo:demorouter_firmware:1.0:*:*:*:*:*:*:*"
+    ],
+    "cvss_severity": "CRITICAL"
+  },
+  {
+    "cve_id": "CVE-EXAMPLE-0003",
+    "description": "SamplePortal before 2.4.0 contains a remote code execution vulnerability through a crafted file upload request in the media parser.",
+    "cwe_ids": ["CWE-94"],
+    "affected_cpe": [
+      "cpe:2.3:a:sample:sampleportal:2.3.9:*:*:*:*:*:*:*"
+    ],
+    "cvss_severity": "HIGH"
+  }
+]
